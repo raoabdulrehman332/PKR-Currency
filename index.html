@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head> 
+<style>
+    h2{
+        text-align: center;
+        font-size: 55px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(7, 130, 238);
+    }
+    h1{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 32px;
+        line-height: 20px;
+    }
+</style>
+<body>
+    <h2>Currency in PKR</h2>
+
+
+
+
+
+
+
+    <script>
+        var dollor = prompt("Enter US Dollor:");
+        var a = dollor;
+        var riyal = prompt("Enter Saudi Riyals:");
+        var b = riyal;
+        var $pkr = 104.80;
+        var pkrSau = 28;
+        var a1 = a * $pkr
+        var b1 = b * pkrSau
+        var total = a1 + b1
+        document.write(`<h1 class="">Total ${a} Dollor in PKR is : ${a1}`);
+        document.write(`<h1 class="">Total ${b} Dollor in PKR is : ${b1}`);
+        document.write(`<h1 class="">Total Currency in PKR is : ${total}`);
+
+
+    </script>
+</body>
+</html>
